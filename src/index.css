@@ -1,33 +1,33 @@
-/* Tailwind CSS directives - These are crucial for Tailwind to work */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+        /* Tailwind CSS directives - These are crucial for Tailwind to work */
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
 
-/* Google Fonts - Import the Inter font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        /* Google Fonts - Import the Inter font */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
-/* Basic body styling */
-body {
-  font-family: 'Inter', sans-serif; /* Apply Inter font globally */
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: #f3f4f6; /* Light gray background */
-}
+        /* Basic body styling */
+        body {
+          font-family: 'Inter', sans-serif; /* Apply Inter font globally */
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          background-color: #f3f4f6; /* Light gray background */
+        }
 
-/* Custom styles for dashboard buttons (replicated from App.jsx's <style> block) */
-.dashboard-button {
-  /* Apply Tailwind classes for styling */
-  @apply bg-white p-4 rounded-xl shadow-md flex flex-col items-center justify-center text-center text-gray-700 hover:bg-indigo-50 hover:text-indigo-700 transition duration-200 transform hover:scale-105 border border-gray-200;
-}
+        /* Custom styles for dashboard buttons (replicated from App.jsx's <style> block) */
+        .dashboard-button {
+          /* Apply Tailwind classes for styling */
+          @apply bg-white p-4 rounded-xl shadow-md flex flex-col items-center justify-center text-center text-gray-700 hover:bg-indigo-50 hover:text-indigo-700 transition duration-200 transform hover:scale-105 border border-gray-200;
+        }
 
-/* Custom styles for navigation icons (replicated from App.jsx's <style> block) */
-.nav-icon-button {
-  /* Apply Tailwind classes for styling */
-  @apply flex flex-col items-center text-gray-600 hover:text-indigo-600 p-2 rounded-lg transition-colors duration-200 text-sm font-medium;
-}
+        /* Custom styles for navigation icons (replicated from App.jsx's <style> block) */
+        .nav-icon-button {
+          /* Apply Tailwind classes for styling */
+          @apply flex flex-col items-center text-gray-600 hover:text-indigo-600 p-2 rounded-lg transition-colors duration-200 text-sm font-medium;
+        }
 
-.nav-icon-button svg {
-    /* Apply Tailwind classes for svg icons */
-    @apply w-6 h-6 mb-1;
-}
+        .nav-icon-button svg {
+            /* Apply Tailwind classes for svg icons */
+            @apply w-6 h-6 mb-1;
+        }
